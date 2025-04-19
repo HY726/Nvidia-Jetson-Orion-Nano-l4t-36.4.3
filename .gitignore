@@ -1,0 +1,54 @@
+# 忽略编译生成的二进制文件
+*.o
+*.a
+*.out
+*.exe
+*.so
+*.d
+
+# 忽略临时文件
+*.swp
+*.bak
+*.tmp
+
+# 忽略IDE配置文件
+.vscode/
+.idea/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+*.o
+*.a
+*.out
+*.exe
+*.so
+*.d
+
+# 忽略临时文件
+*.swp
+*.bak
+*.tmp
+
+# 忽略 .tbz2 和 .sha1sum 文件
+*.tbz2
+*.sha1sum
+
+# 忽略IDE配置文件
+.vscode/
+.idea/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略所有文件，除非明确允许
+!hardware/
+!kernel/
+!nvdisplay/
+!nvgpu/
+!hwpm/
+!kernel-devicetree/
+!nvethernetrm/
+!nvidia-oot/
+
